@@ -1,0 +1,101 @@
+<view class='flex-container'>
+  <view class='flex-item'>
+    <image class='top-avator' src='../../images/person128.png'></image>
+    <text class='top-text'>团队业绩</text>
+    <view class='top-btn-area'>
+      <text class='top-btn-text'>点击查看历史奖金</text>
+    </view>
+    <image class='top-click' src='../../images/click.png'></image>
+  </view>
+
+  <view class='flex-item second-item'>
+    <view class='person'>
+      <image class='person-image' src='../../images/person10.png'></image>
+      <text class='person-text'>团队总人数</text>
+      <text class='person-num'>678</text>
+    </view>
+
+    <view class='person'>
+      <image class='person-image' src='../../images/person_left.png'></image>
+      <text class='person-text'>团队总代理</text>
+      <text class='person-num'>479</text>
+    </view>
+
+    <view class='person'>
+      <image class='person-image' src='../../images/person_right.png'></image>
+      <text class='person-text'>直属代理</text>
+      <text class='person-num'>230</text>
+    </view>
+  </view>
+
+  <view class='flex-item third-item'>
+    <view class='bonus-group'>
+      <view class='bonus-item bottom-border'>
+        <image class='bonus-image' src='../../images/money_pag.png'></image>
+        <text class='bonus-text'>当月个人奖金</text>
+        <text class='bonus-num'>20000</text>
+      </view>
+
+      <view class='bonus-item left-border bottom-border'>
+        <image class='bonus-image' src='../../images/money.png'></image>
+        <text class='bonus-text'>当月团队奖金</text>
+        <text class='bonus-num'>1000000</text>
+      </view>
+    </view>
+
+    <view class='sale-group'>
+      <view class='sale-item bottom-border'>
+        <image class='sale-image' src='../../images/day.png'></image>
+        <text class='sale-text'>当日个人销量</text>
+        <text class='sale-num'>10000</text>
+      </view>
+
+      <view class='sale-item bottom-border left-border'>
+        <image class='sale-image' src='../../images/month2.png'></image>
+        <text class='sale-text'>当月个人销量</text>
+        <text class='sale-num'>300000</text>
+      </view>
+
+      <view class='sale-item bottom-border left-border'>
+        <image class='sale-image' src='../../images/sales.png'></image>
+        <text class='sale-text'>个人累积销量</text>
+        <text class='sale-num'>1000000</text>
+      </view>
+
+      <view class='sale-item'>
+        <image class='sale-image' src='../../images/month.png'></image>
+        <text class='sale-text'>当日团队销量</text>
+        <text class='sale-num'>100000</text>
+      </view>
+
+      <view class='sale-item left-border'>
+        <image class='sale-image' src='../../images/month3.png'></image>
+        <text class='sale-text'>当月团队销量</text>
+        <text class='sale-num'>80000000</text>
+      </view>
+
+      <view class='sale-item left-border'>
+        <image class='sale-image' src='../../images/sales_order.png'></image>
+        <text class='sale-text'>团队累积销量</text>
+        <text class='sale-num'>10000000000</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='flex-item'>
+    <view class='bottom-item'>
+      <image class='bottom-image' src='../../images/check1.png'></image>
+      <text class='bottom-text'>业绩查看</text>
+    </view>
+
+    <view class='bottom-item'>
+      <image class='bottom-image' src='../../images/check3.png'></image>
+      <text class='bottom-text'>审核代理</text>
+    </view>
+
+    <view class='bottom-item'>
+      <image class='bottom-image' src='../../images/check.png'></image>
+      <text class='bottom-text'>查看代理</text>
+    </view>
+  </view>
+</view>

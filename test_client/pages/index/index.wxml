@@ -11,6 +11,45 @@
         <include src="components/banner/banner.wxml" />
       </block>
     </block>
+    <!-- 赚积分 -->
+    <view class='jifen-area m-top20'>
+      <text class='jifen-text'>好物互送平台，只用积分不用钱</text>
+      <view class='jifen-bar'>
+        <image class='jifen-bar-image' src='../../images/jifen_bar.png'></image>
+        <view class='jifen-coin'>
+          <image class='jifen-coin-image' src='../../images/jifen_coin.png'></image>
+          <text class='jifen-click'>点我赚积分</text>
+        </view>
+      </view>
+
+      <view class='jifen-btn'>
+        <view class='jifen-item'>
+          <image class='jifen-item-image' src='../../images/jifen1.jpg'></image>
+          <text class='jifen-item-text'>闪团</text>
+        </view>
+
+        <view class='jifen-item'>
+          <image class='jifen-item-image' src='../../images/jifen2.jpg'></image>
+          <text class='jifen-item-text'>送书</text>
+        </view>
+
+        <view class='jifen-item'>
+          <image class='jifen-item-image' src='../../images/jifen3.jpg'></image>
+          <text class='jifen-item-text'>品牌</text>
+        </view>
+
+        <view class='jifen-item'>
+          <image class='jifen-item-image' src='../../images/jifen4.jpg'></image>
+          <text class='jifen-item-text'>故事</text>
+        </view>
+
+        <view class='jifen-item'>
+          <image class='jifen-item-image' src='../../images/jifen5.jpg'></image>
+          <text class='jifen-item-text'>签到</text>
+        </view>
+      </view>
+    </view>
+    
     <!-- 商品推荐 -->
     <view class="recommended-index-list m-top20">
       <view class="title-header b-f t-c f-32 col-3">新品推荐</view>

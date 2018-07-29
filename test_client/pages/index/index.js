@@ -87,8 +87,8 @@ Page({
 
   onShareAppMessage: function () {
     return {
-      title: "小程序首页",
-      desc: "",
+      title: "区块买",
+      desc: "这是一个神奇的小程序",
       path: "/pages/index/index"
     };
   }

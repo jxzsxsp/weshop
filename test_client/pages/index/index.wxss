@@ -3,3 +3,81 @@
 
 /* banner组件 */
 @import "components/banner/banner.wxss";
+
+.jifen-area {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  height: 400rpx;
+}
+
+.jifen-text {
+  color: gray;
+  font-size: 30rpx;
+  padding-left: 100rpx;
+  padding-top: 10rpx;
+}
+
+.jifen-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 750rpx;
+  height: 150rpx;
+}
+
+.jifen-bar-image {
+  width: 600rpx;
+  height: 85rpx;
+}
+
+.jifen-coin {
+  width: 150rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jifen-coin-image {
+  width: 80rpx;
+  height: 73rpx;
+}
+
+.jifen-click {
+  color: gray;
+  font-size: 27rpx;
+}
+
+.jifen-btn {
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 200rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.jifen-item {
+  display: flex;
+  flex-direction: column;
+  width: 150rpx;
+  height: 200rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.jifen-item-image {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.jifen-item-text {
+  color: gray;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  padding-right: 10rpx;
+}

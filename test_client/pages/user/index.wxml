@@ -44,9 +44,195 @@
       </view>
     </view>
   </view>
+
+  <!-- 广播 -->
+  <view class='guangbo'>
+
+  </view>
+
+  <!-- 积分 -->
+  <view class='jifen m-top20'>
+    <image class='coin-image' src='../../images/jifen_coin.png'></image>
+    <text class='coin-text'>您有<text class='coin-num'>200</text>超级积分</text>
+    <view class='coin-btn'>
+      <text class='coin-click'>赚积分</text>
+    </view>
+  </view>
+
+  <!-- 任务 -->
+  <!--
+  <scroll-view scroll-x="true" class='task m-top20'>
+    <view class='scroll-item'>
+        <text class='task-desc'>完成1次休闲娱乐交易</text>
+        <view class='task-step'>
+          <text class='step-text'>1/1</text>
+        </view>
+        <image class='task-image' src='../../images/task1.png'></image>
+        <view class='task-btn'>
+          <text class='btn-text'>去做任务</text>
+        </view>
+    </view>
+    
+    <view class='scroll-item'>
+        <text class='task-desc'>完成1次丽人美发交易</text>
+        <view class='task-step'>
+          <text class='step-text'>0/1</text>
+        </view>
+        <image class='task-image' src='../../images/task2.png'></image>
+        <view class='task-btn'>
+          <text class='btn-text'>去做任务</text>
+        </view>
+    </view>
+    
+    <view class='scroll-item'></view>
+    <view class='scroll-item'></view>
+  </scroll-view>
+  -->
+
   <view class="m-top20">
-    <navigator url="../address/index">
+
+    <navigator url="">
       <view class="user-order-title dis-flex b-f m-top20">
+        <view class="flex-box">
+          <text class="iconfont icon-dianpu2 common-icon"></text>
+          <text class="user-orderName h4">商家入驻</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="../daili/index">
+      <view class="user-order-title dis-flex b-f">
+        <view class="flex-box">
+          <text class="iconfont icon-fenxiang common-icon"></text>
+          <text class="user-orderName h4">成为代理</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="user-order-title dis-flex b-f">
+        <view class="flex-box">
+          <text class="iconfont icon-cuxiao common-icon"></text>
+          <text class="user-orderName h4">我发布的</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="user-order-title dis-flex b-f">
+        <view class="flex-box">
+          <text class="iconfont icon-templatedefault common-icon"></text>
+          <text class="user-orderName h4">参与的竞拍</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="user-order-title dis-flex b-f">
+        <view class="flex-box">
+          <text class="iconfont icon-daojianfu common-icon"></text>
+          <text class="user-orderName h4">我砍的宝贝</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="user-order-title dis-flex b-f">
+        <view class="flex-box">
+          <text class="iconfont icon-profile common-icon"></text>
+          <text class="user-orderName h4">关注的人</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="user-order-title dis-flex b-f">
+        <view class="flex-box">
+          <text class="iconfont icon-xiaoxi common-icon"></text>
+          <text class="user-orderName h4">我的消息</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="user-order-title dis-flex b-f">
+        <view class="flex-box">
+          <text class="iconfont icon-favorite common-icon"></text>
+          <text class="user-orderName h4">点赞收藏</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="user-order-title dis-flex b-f">
+        <view class="flex-box">
+          <text class="iconfont icon-jifen common-icon"></text>
+          <text class="user-orderName h4">积分况换</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="user-order-title dis-flex b-f">
+        <view class="flex-box">
+          <text class="iconfont icon-kefu common-icon"></text>
+          <text class="user-orderName h4">联系客服</text>
+        </view>
+        <view class="flex-box">
+          <view class="user-orderContBox">
+            <text class="iconfont icon-xiangyoujiantou user-orderJtou"></text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="../address/index">
+      <view class="user-order-title dis-flex b-f">
         <view class="flex-box">
           <text class="iconfont icon-map common-icon"></text>
           <text class="user-orderName h4">收货地址</text>
@@ -58,6 +244,7 @@
         </view>
       </view>
     </navigator>
+
     <navigator url="../user/help">
       <view class="user-order-title dis-flex b-f">
         <view class="flex-box">
@@ -71,6 +258,7 @@
         </view>
       </view>
     </navigator>
+
   </view>
 
 </view>

@@ -22,14 +22,6 @@ App({
    * 当小程序启动，或从后台进入前台显示，会触发 onShow
    */
   onShow: function (options) {
-    // 获取小程序基础信息
-    this.getWxappBase(function (wxapp) {
-      // 设置navbar标题、颜色
-      wx.setNavigationBarColor({
-        frontColor: wxapp.navbar.top_text_color.text,
-        backgroundColor: wxapp.navbar.top_background_color
-      })
-    });
   },
 
   /**
@@ -246,7 +238,7 @@ App({
     let App = this
       , wxapp;
     if (wxapp = wx.getStorageSync('wxapp')) {
-      wx.setNavigationBarTitle({ title: wxapp.navbar.wxapp_title });
+      //wx.setNavigationBarTitle({ title: wxapp.navbar.wxapp_title });
     } else {
       App.getWxappBase(function () { App.setTitle(); });
     }

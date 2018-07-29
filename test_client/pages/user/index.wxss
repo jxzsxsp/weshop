@@ -13,3 +13,91 @@
 .user-list-service .li {
     padding-bottom: 45rpx;
 }
+
+.jifen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 700rpx;
+  height: 100rpx;
+  background-color: white;
+  border-radius: 50rpx;
+  margin-left: 25rpx;
+}
+
+.coin-image {
+  width: 70rpx;
+  height: 65rpx;
+  margin-left: 20rpx;
+}
+
+.coin-text {
+  font-size: 35rpx;
+  margin-left: 20rpx;
+}
+
+.coin-num {
+  color: red;
+}
+
+.coin-btn {
+  background-color: red;
+  width: 180rpx;
+  height: 70rpx;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 40rpx;
+  position: absolute;
+  right: 50rpx;
+}
+
+.coin-click {
+  color: white;
+}
+
+.task {
+  width: 100%;
+  height: 400rpx;
+  background-color: white;
+  white-space: nowrap;
+}
+
+.scroll-item {
+  display: inline-block;
+  width: 350rpx;
+  height: 350rpx;
+  margin-left: 20rpx;
+  margin-top: 25rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+}
+
+.task-desc {
+  font-size: 30rpx;
+}
+
+.task-step {
+  width: 100rpx;
+  height: 25rpx;
+  background-color: gray;
+}
+
+.step-text {
+  color: white;
+  font-size: 20rpx;
+}
+
+.task-image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.task-btn {
+  width: 150rpx;
+  height: 80rpx;
+}
+
+.btn-text {
+  font-size: 40rpx;
+}
