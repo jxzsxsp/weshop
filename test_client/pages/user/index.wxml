@@ -207,7 +207,7 @@
       <view class="user-order-title dis-flex b-f">
         <view class="flex-box">
           <text class="iconfont icon-jifen common-icon"></text>
-          <text class="user-orderName h4">积分况换</text>
+          <text class="user-orderName h4">积分兑换</text>
         </view>
         <view class="flex-box">
           <view class="user-orderContBox">
