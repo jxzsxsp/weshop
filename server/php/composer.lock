@@ -100,16 +100,16 @@
         },
         {
             "name": "topthink/think-swoole",
-            "version": "v2.0.11",
+            "version": "v2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-swoole.git",
-                "reference": "0f5d6881cd453bce469b97e1eaa90dbfbfd68b40"
+                "reference": "88287188bf5e8c64bd2ed942005c558be5a6b566"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-swoole/zipball/0f5d6881cd453bce469b97e1eaa90dbfbfd68b40",
-                "reference": "0f5d6881cd453bce469b97e1eaa90dbfbfd68b40",
+                "url": "https://api.github.com/repos/top-think/think-swoole/zipball/88287188bf5e8c64bd2ed942005c558be5a6b566",
+                "reference": "88287188bf5e8c64bd2ed942005c558be5a6b566",
                 "shasum": ""
             },
             "require": {
@@ -132,7 +132,7 @@
                     "src/command.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "https://repo.packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -143,7 +143,7 @@
                 }
             ],
             "description": "Swoole extend for thinkphp5.1",
-            "time": "2018-07-25T09:18:10+00:00"
+            "time": "2018-07-28T15:30:17+00:00"
         }
     ],
     "packages-dev": [],
