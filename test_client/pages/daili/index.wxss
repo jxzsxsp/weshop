@@ -162,8 +162,11 @@
 
 .top-btn-area {
   display: flex;
+  width: 220rpx;
+  justify-content: center;
+  align-items: center;
   border:1px solid white;
-  border-radius: 10%;
+  border-radius: 12rpx;
 }
 
 .top-btn-text {
